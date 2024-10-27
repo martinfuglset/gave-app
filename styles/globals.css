@@ -1,0 +1,48 @@
+/* globals.css */
+
+/* Body and main styling as above */
+
+#login-page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#login-page h1 {
+  font-size: 2rem;
+  color: #d9381e; /* Festive red */
+  margin-bottom: 20px;
+}
+
+.login-button {
+  width: 250px;
+  padding: 10px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+}
+
+/* Google button styling */
+.login-button.google {
+  background-color: #4285f4;
+}
+
+.login-button.google:hover {
+  background-color: #357ae8;
+}
+
+/* Apple button styling */
+.login-button.apple {
+  background-color: #000;
+}
+
+.login-button.apple:hover {
+  background-color: #333;
+}
